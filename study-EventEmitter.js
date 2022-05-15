@@ -12,6 +12,7 @@ myEmitter.emit('test','apple','banana','pear');
 
 //객체 전달
 const obj = {type:'text', data: 'Hello CodeIt',date: '2020-09-01'};
+
 myEmitter.on('objTest', (info) => {
   console.log(info);
 });
