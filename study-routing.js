@@ -5,7 +5,7 @@ const express = require('express');
 // express로 만든 객체는 app이라는 변수이름을 주로 쓴다.
 const app = express();
 
-const users = ['Tom', 'Andy', 'Jessics', 'Paul'];
+const users = ['Tom', 'Andy', 'Jessics', 'Paul','Codeit'];
 
 // let server = http.createServer((request,response) => {
 //   if(request.url === '/'){
